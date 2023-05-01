@@ -7,6 +7,9 @@ I place these sentences into groups called "blurbs" that are each specific to th
 Then I compare each blurbs to each other blurb using spacy to find the sentences that are most similiar
 The results are compiled within the "results.txt" document. Sentences with similarities close to 1 are the most similiar.
 
+# Results
+See "results.txt"
+
 # Findings
 - All services in the data set have the right to hand over your information if law enforcement requests it
 - Most services utilize your Advertising ID in targeted ads
@@ -20,3 +23,7 @@ The results are compiled within the "results.txt" document. Sentences with simil
 - If you are banned, services retain information about you.
 Device Attributes
   - Type of OS, etc.
+
+# To Run
+Clone the repository and run the Tester.py. It takes over 10+ minutes to complete, and the data will be recorded within "results.txt"
+
