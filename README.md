@@ -11,12 +11,15 @@ This is my first attempt at analyzing a data set using NLP (Natural Language Pro
 - Whatsapp
 - Google
 
+The goal of this algorithm is to find the common features between privacy policies using NLP.
+
 # How it works
 First I get a .txt representation of every privacy policy.
 Then, so that every single sentence isn't being compared to every other sentence, I prune the search space by grabbing every sentence that contains the word "information" (these sentences would probably be the most relevant).
 I place these sentences into groups called "blurbs" that are each specific to their respective privacy policy.
-Then I compare each blurbs to each other blurb using spacy to find the sentences that are most similiar.
-The results are compiled within the "results.txt" document. Sentences with similarities close to 1 are the most similiar.
+Then I compare each blurb to each other privacy policies' blurbs using spacy to find the sentences that are most similiar.
+The results are compiled within the "results.txt" document. Sentences with similarities close to 1 contain the most similiar information, and therefore are most relevant
+to my study.
 
 # Results
 See "results.txt"
