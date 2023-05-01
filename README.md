@@ -10,13 +10,13 @@ The results are compiled within the "results.txt" document. Sentences with simil
 # Findings
 - All services in the data set have the right to hand over your information if law enforcement requests it
 - Most services utilize your Advertising ID in targeted ads
- - “It can be sent to advertisers and other third parties which can use this unique ID to track the user's movements, habits, and usages of applications”
+  - “It can be sent to advertisers and other third parties which can use this unique ID to track the user's movements, habits, and usages of applications”
 - Most of the time if a company is acquired, the acquiring company will be able to obtain your data
 - Your information can be processed outside of the US
 - Use your information to “improve the safety and reliability of our services”
- - Unclear. Ex:
-  - Tinder: The main reason we use your information is to deliver and improve our services. 
-  - Twitter: Breaking down how we use the information we collect is not simple because of the way the systems that bring our services to you work.
+  - Unclear. Ex:
+    - Tinder: The main reason we use your information is to deliver and improve our services. 
+    - Twitter: Breaking down how we use the information we collect is not simple because of the way the systems that bring our services to you work.
 - If you are banned, services retain information about you.
 Device Attributes
- - Type of OS, etc.
+  - Type of OS, etc.
