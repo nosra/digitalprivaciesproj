@@ -2,9 +2,10 @@
 This is my first attempt at analyzing a data set using NLP (Natural Language Processing) and Python. It uses beatifulsoup and spacy to analyze the top 10 most common social medias' privacy policies.
 
 # How it works
-First I get a .txt representation of every privacy policy. Then, so that every single sentence isn't being compared to every other sentence, I prune the search space by grabbing every sentence that contains the word "information" (these sentences would probably be the most relevant)
+First I get a .txt representation of every privacy policy.
+Then, so that every single sentence isn't being compared to every other sentence, I prune the search space by grabbing every sentence that contains the word "information" (these sentences would probably be the most relevant).
 I place these sentences into groups called "blurbs" that are each specific to their respective privacy policy.
-Then I compare each blurbs to each other blurb using spacy to find the sentences that are most similiar
+Then I compare each blurbs to each other blurb using spacy to find the sentences that are most similiar.
 The results are compiled within the "results.txt" document. Sentences with similarities close to 1 are the most similiar.
 
 # Results
