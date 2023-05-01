@@ -1,5 +1,15 @@
 # README
-This is my first attempt at analyzing a data set using NLP (Natural Language Processing) and Python. It uses beatifulsoup and spacy to analyze the top 10 most common social medias' privacy policies.
+This is my first attempt at analyzing a data set using NLP (Natural Language Processing) and Python. It uses beatifulsoup and spacy to analyze the top 10 most common social medias' privacy policies. Specifically these privacy policies:
+- Snapchat
+- Twitter
+- Spotify
+- Instagram
+- Facebook
+- Tinder
+- Reddit
+- Tiktok
+- Whatsapp
+- Google
 
 # How it works
 First I get a .txt representation of every privacy policy.
